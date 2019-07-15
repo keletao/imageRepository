@@ -4,21 +4,30 @@
 <head>
     <meta charset="utf-8">
     <title>Bootstrap 实例 - 一个简单的网页</title>
-    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
-    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/js.js"></script>
+    <link href="css/css.css" rel="stylesheet">
     <style>
         .fakeimg {
             height: 200px;
             background: #aaa;
         }
+
     </style>
 </head>
 
 <body>
-    <div class="jumbotron text-center" style="margin-bottom:0">
-        <h1>我的第一个 Bootstrap 页面</h1>
-        <p>重置浏览器窗口大小查看效果！</p>
+    <div class="jumbotron text-center" style="margin-bottom:0" id="head_img">
+        <h1 class="text-left">music</h1>
+        <h1 class="text-left">saves</h1>
+        <h1 class="text-left">The world.</h1>
     </div>
 
     <nav class="navbar navbar-inverse">
@@ -44,7 +53,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-2">
-                <h2>关于我</h2>
+                <!-- <h2>关于我</h2>
                 <h5>我的照片:</h5>
                 <div class="fakeimg">这边插入图像</div>
                 <p>关于我的介绍..</p>
@@ -55,9 +64,15 @@
                     <li><a href="#">链接 2</a></li>
                     <li><a href="#">链接 3</a></li>
                 </ul>
-                <hr class="hidden-sm hidden-md hidden-lg">
+                <hr class="hidden-sm hidden-md hidden-lg"> -->
             </div>
             <div class="col-sm-8">
+                <div class="row">
+                    <div class="col-lg-3"></div>
+                    <div class="col-lg-3"></div>
+                    <div class="col-lg-3"></div>
+                    <div class="col-lg-3"></div>
+                </div>
                 <h2>标题</h2>
                 <h5>副标题</h5>
                 <div class="fakeimg">图像</div>
